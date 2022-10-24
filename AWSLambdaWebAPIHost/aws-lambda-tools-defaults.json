@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-south-1",
+    "profile" : "JT-AWS",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "AWSLambdaAPIFunction",
+    "package-type"  : "Zip",
+    "function-handler" : "AWSLambdaWebAPIHost",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::468445873408:role/lambda_exec_AWSLambdaAPIFunction",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
